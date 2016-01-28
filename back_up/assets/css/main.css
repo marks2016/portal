@@ -1,0 +1,757 @@
+/* CSS file */
+Application
+{
+	color: #000000;
+   	/*backgroundColor:        #3282D9;*/
+   	fillAlphas: 0.42, 0.48;
+  	/* fillColors: #d5d5d5, #d5d5d5; */
+  	/*
+  	backgroundColor: #003E7C;
+  	backgroundGradientColors: #2172A6, #B2D7ED;
+  	*/ 
+  	/* backgroundColor: #d5d5d5;
+  	backgroundGradientColors: #d5d5d5, #d5d5d5; */
+	/*
+	fontFamily: "Lucida Grande";
+	*/
+	fontFamily: "Base Nine SC";
+	fontSize: 14;
+	/*
+	background-image: 			Embed(source="assets/web_images/page_bg_img.png",
+								scaleGridTop="94", scaleGridBottom="791", scaleGridLeft="350", scaleGridRight="690");
+	*/
+}
+.ApplicationControlBar {
+    highlightAlphas: 0.21, 0.2;
+	fillAlphas: 0.42, 0.48;
+	fillColors: #003E7C, #00A9FE;
+	backgroundColor: #003E7C;
+	cornerRadius: 6;
+	shadowDistance: 6;
+	color: #FFFFFF;
+}
+/*
+CheckBox
+{
+	upIcon: Embed(source='assets/images/checkBox_up.png');
+	downIcon:Embed(source='assets/images/checkBox_selected.png');
+	overIcon:Embed(source='assets/images/checkBox_over.png');
+	selectedUpIcon:Embed(source='assets/images/checkBox_selected.png');
+	selectedOverIcon:Embed(source='assets/images/checkBox_selected.png');
+	selectedDownIcon:Embed(source='assets/images/checkBox_selected.png');
+}
+*/
+LinkBar {
+   borderStyle: solid;
+   borderColor: #5C0000;
+   borderThickness: 2;
+   horizontalGap: 20;
+   cornerRadius: 8;
+   backgroundColor: #AB1C0A;
+   color: #FFFFFF;
+   selectionColor:#CDFFC1;
+   textRollOverColor: #E9AF00;
+   textSelectedColor: #FFFFFF;
+   fontSize: 12;
+   dropShadowEnabled: true;
+   shadowDistance: 5;
+   shadowDirection: left;
+   disabledColor: YELLOW;
+   separatorWidth: 1;
+   rollOverColor:HALOBLUE;
+}
+
+.LinkBarRed {
+   borderStyle: solid;
+   borderColor: #5C0000;
+   borderThickness: 2;
+   horizontalGap: 20;
+   cornerRadius: 8;
+   backgroundColor: #AB1C0A;
+   color: #FFFFFF;
+   selectionColor:#CDFFC1;
+   textRollOverColor: #E9AF00;
+   textSelectedColor: #FFFFFF;
+   fontSize: 12;
+   dropShadowEnabled: true;
+   shadowDistance: 5;
+   shadowDirection: left;
+   disabledColor: YELLOW;
+   separatorWidth: 1;
+   rollOverColor:HALOBLUE;
+}
+
+.LinkBarBlue {
+   borderStyle: solid;
+   borderColor: #006EB1;
+   borderThickness: 2;
+   horizontalGap: 20;
+   cornerRadius: 8;
+   backgroundColor: #001E78;
+   color: #FFFFFF;
+   selectionColor:#CDFFC1;
+   textRollOverColor: #E9AF00;
+   textSelectedColor: #FFFFFF;
+   fontSize: 12;
+   dropShadowEnabled: true;
+   shadowDistance: 2;
+   shadowDirection: left;
+   disabledColor: YELLOW;
+   separatorWidth: 1;
+   rollOverColor:HALOBLUE;
+}
+
+
+.addAlert 
+{
+	icon: Embed(source="assets/web_images/alert_001.swf");
+	paddingLeft:2;
+	textAlign: left;
+	fontSize:	14;
+	fontWeight: bold;
+	disabledSkin: Embed(source="blue_plastic.swf", symbol="Button_disabledSkin");
+	downSkin: Embed(source="blue_plastic.swf", symbol="Button_downSkin");
+	overSkin: Embed(source="blue_plastic.swf", symbol="Button_overSkin");
+	upSkin: Embed(source="blue_plastic.swf", symbol="Button_upSkin");
+	color: #000000;
+	textRollOverColor:#510000;
+	
+}
+
+
+.addQuote
+{
+	icon: Embed(source="assets/web_images/info24.png");
+	paddingLeft:2;
+	textAlign: left;
+	fontSize:	14;
+	fontWeight: bold;
+	disabledSkin: Embed(source="blue_plastic.swf", symbol="Button_disabledSkin");
+	downSkin: Embed(source="blue_plastic.swf", symbol="Button_downSkin");
+	overSkin: Embed(source="blue_plastic.swf", symbol="Button_overSkin");
+	upSkin: Embed(source="blue_plastic.swf", symbol="Button_upSkin");
+	color: #000000;
+	textRollOverColor:#510000;
+}
+.addEmpty 
+{
+	icon: Embed(source="assets/web_images/empty.png");
+	paddingLeft:2;
+	textAlign: left;
+	fontSize:	14;
+	fontWeight: bold;
+	disabledSkin: Embed(source="blue_plastic.swf", symbol="Button_disabledSkin");
+	downSkin: Embed(source="blue_plastic.swf", symbol="Button_downSkin");
+	overSkin: Embed(source="blue_plastic.swf", symbol="Button_overSkin");
+	upSkin: Embed(source="blue_plastic.swf", symbol="Button_upSkin");
+	color: #000000;
+	textRollOverColor:#510000;
+}
+
+.Max
+{
+	icon: Embed(source="assets/web_images/max32.png");
+	paddingLeft:2;
+	textAlign: left;
+	fontSize:	14;
+	fontWeight: bold;
+	disabledSkin: Embed(source="blue_plastic.swf", symbol="Button_disabledSkin");
+	downSkin: Embed(source="blue_plastic.swf", symbol="Button_downSkin");
+	overSkin: Embed(source="blue_plastic.swf", symbol="Button_overSkin");
+	upSkin: Embed(source="blue_plastic.swf", symbol="Button_upSkin");
+	color: #000000;
+	textRollOverColor:#510000;
+}
+.Min 
+{
+	icon: Embed(source="assets/web_images/min32.png");
+	paddingLeft:2;
+	textAlign: left;
+	fontSize:	14;
+	fontWeight: bold;
+	disabledSkin: Embed(source="blue_plastic.swf", symbol="Button_disabledSkin");
+	downSkin: Embed(source="blue_plastic.swf", symbol="Button_downSkin");
+	overSkin: Embed(source="blue_plastic.swf", symbol="Button_overSkin");
+	upSkin: Embed(source="blue_plastic.swf", symbol="Button_upSkin");
+	color: #000000;
+	textRollOverColor:#510000;
+}
+
+Alert{
+    borderStyle:solid;
+    borderColor:#333333;
+    background-color:#ffffff;
+    borderAlpha: 1;
+    borderThickness:1;
+    roundedBottomCorners:true;
+    cornerRadius:8;
+    headerHeight:30;
+    backgroundAlpha:0.9;
+    highlightAlphas: 0, 0;
+   	headerColors: #ff3f3f, #780000;
+   	titleStyleName: "alertTitle";
+    message-style-name:"messageStyle";
+    button-style-name:"RegButton";
+    paddingTop:10;
+	paddingBottom:15;
+} 
+
+/* button-style-name:"AlertButtons"; */
+
+.alertTitle
+{
+    fontFamily: "Lucida Grande";
+    fontSize:14;
+    color:#ffffff;
+    font-weight:bold;
+}
+
+.messageStyle
+{
+    letterSpacing:0;
+    color:#333333;
+    textAlign:left;
+    fontFamily: "Lucida Grande";
+    fontSize:12;
+    font-weight:bold;
+  
+}
+
+.AlertButtons{
+	fontFamily: "Lucida Grande";
+	fontSize:	14;
+	fontWeight: bold;
+	disabledSkin: Embed(source="blue_plastic.swf", symbol="Button_disabledSkin");
+	downSkin: Embed(source="blue_plastic.swf", symbol="Button_downSkin");
+	overSkin: Embed(source="blue_plastic.swf", symbol="Button_overSkin");
+	upSkin: Embed(source="blue_plastic.swf", symbol="Button_upSkin");
+	color: #000000;
+	textRollOverColor:#510000;
+}
+
+
+.GreenControlBar {
+    highlightAlphas: 0.21, 0.2;
+	fillAlphas: 0.42, 0.48;
+	fillColors: #005C39, #005C39;
+	backgroundColor: #005C39;
+	cornerRadius: 6;
+	shadowDistance: 6;
+	color: #FFFFFF;
+}
+.blackHBox
+{
+	background-image: Embed(source='assets/web_images/bar_black.png');
+	vertical-gap: 0;
+	horizontal-gap: 0;
+}
+.blueHBox
+{
+	background-image: Embed(source='assets/web_images/bar_blue.png');
+	vertical-gap: 0;
+	horizontal-gap: 0;
+}
+.redHBox
+{
+	background-image: Embed(source='assets/web_images/bar_red.png');
+	vertical-gap: 0;
+	horizontal-gap: 0;
+}
+.goldHBox
+{
+	background-image: Embed(source='assets/web_images/bar_gold.png');
+	vertical-gap: 0;
+	horizontal-gap: 0;
+}
+.greenHBox
+{
+	background-image: Embed(source='assets/web_images/bar_green.png');
+	vertical-gap: 0;
+	horizontal-gap: 0;
+}
+.leatherHBox
+{
+	background-image: Embed(source='assets/web_images/bar_leather.png');
+	vertical-gap: 0;
+	horizontal-gap: 0;
+}
+
+.orangeHBox
+{
+	background-image: Embed(source='assets/web_images/bar_leather.png');
+	vertical-gap: 0;
+	horizontal-gap: 0;
+}
+
+.pinkHBox
+{
+	background-image: Embed(source='assets/web_images/bar_pink.png');
+	vertical-gap: 0;
+	horizontal-gap: 0;
+}
+.tourqHBOX
+{
+	background-image: Embed(source='assets/web_images/bar_tourq.png');
+	vertical-gap: 0;
+	horizontal-gap: 0;
+}
+
+.displayBox
+{
+	borderStyle:solid;
+	borderThickness: 2;
+	borderColor: #CCCCCC;
+	cornerRadius: 6;
+	paddingLeft:2;
+	paddingRight:2;
+	backgroundColor: HALOBLUE;
+	backgroundAlpha: 1;
+	verticalAlign : middle;
+}
+	
+ToolTip {
+   cornerRadius: 6;
+   paddingLeft: 5;
+   paddingRight: 5;
+   backgroundColor: #FFFF99;
+   color: #000000;
+   textAlign: center;
+   fontFamily: Arial;
+   fontSize: 14;
+   fontWeight: bold;
+}
+
+Button{
+	skin: ClassReference("skins.ButtonSkin");
+	fontSize:16;
+	fontWeight:normal;
+	paddingLeft:23;
+	paddingRight:23;
+	paddingTop:10;
+	paddingBottom:10;
+	color:#ffffff;
+	textRollOverColor:#ffffff;
+	cornerRadius:5;
+	borderThickness:1;
+	borderColor:#cccccc;
+	borderStyle:solid;
+	backgroundColor:#1e83b8;
+}
+/*
+DateField 
+{
+            skin: Embed("assets/web_images/date_icon28.png");
+            
+            upSkin: ClassReference(null);
+            overSkin: ClassReference(null);
+            downSkin: ClassReference(null);
+            disabledSkin: ClassReference(null);
+}
+*/
+RadioButton
+{
+	upIcon: Embed(source='assets/images/radio_up.png');
+	downIcon:Embed(source='assets/images/radio_over.png');
+	overIcon:Embed(source='assets/images/radio_over.png');
+	selectedUpIcon:Embed(source='assets/images/radio_selected.png');
+	selectedOverIcon:Embed(source='assets/images/radio_selected.png');
+	selectedDownIcon:Embed(source='assets/images/radio_selected.png');
+	color:#000000;
+	textRollOverColor:RED;
+}
+
+
+.LoadingButton
+{
+	skin:					ClassReference('assets.skins.ButtonLoader_skin');
+	
+	color:					#FFFFFF;
+	textRollOverColor:		#FFFFFF;
+	disabledColor:			#FFFFFF;
+	
+	fontSize:				20;
+	paddingTop: 			6;
+}
+
+.SpButton{
+	skin: ClassReference("skins.ButtonSkin");
+	fontSize:16;
+	fontWeight:normal;
+	paddingLeft:23;
+	paddingRight:23;
+	paddingTop:10;
+	paddingBottom:10;
+	color:#ffffff;
+	textRollOverColor:#ffffff;
+	cornerRadius:5;
+	borderThickness:1;
+	borderColor:#cccccc;
+	borderStyle:solid;
+	backgroundColor:#1e83b8;
+	
+}
+.BlueButton
+{
+	paddingLeft:2;
+	fontSize:	14;
+	fontWeight: bold;
+	disabledSkin: Embed(source="blue_plastic.swf", symbol="Button_disabledSkin");
+	downSkin: Embed(source="blue_plastic.swf", symbol="Button_downSkin");
+	overSkin: Embed(source="blue_plastic.swf", symbol="Button_overSkin");
+	upSkin: Embed(source="blue_plastic.swf", symbol="Button_upSkin");
+	color: #000000;
+	textRollOverColor:#510000;
+}
+.BlackButton1
+{
+	upSkin:Embed(source='assets/web_images/blackBG.png', scaleGridLeft=10, scaleGridRight=11, scaleGridTop=10,scaleGridBottom=11);
+	downSkin:Embed(source='assets/web_images/blueBG.png', scaleGridLeft=10, scaleGridRight=11, scaleGridTop=10,scaleGridBottom=11);
+	overSkin:Embed(source='assets/web_images/blueBG.png', scaleGridLeft=10, scaleGridRight=11, scaleGridTop=10,scaleGridBottom=11);
+	selectedUpSkin:Embed(source='assets/images/glass_btn_over.png', scaleGridLeft=10, scaleGridRight=11, scaleGridTop=10,scaleGridBottom=11);
+	selectedOverSkin:Embed(source='assets/images/glass_btn_over.png', scaleGridLeft=10, scaleGridRight=11, scaleGridTop=10,scaleGridBottom=11);
+	disabledSkin:Embed(source='assets/images/glass_btn_disable.png', scaleGridLeft=10, scaleGridRight=11, scaleGridTop=10,scaleGridBottom=11);
+	color:#000000;
+	textRollOverColor:#510000;
+}
+/*
+.BlackButton
+{
+	upSkin:Embed(source='assets/web_images/barup.png', scaleGridLeft=10, scaleGridRight=11, scaleGridTop=10,scaleGridBottom=11);
+	downSkin:Embed(source='assets/web_images/barover.png', scaleGridLeft=10, scaleGridRight=11, scaleGridTop=10,scaleGridBottom=11);
+	overSkin:Embed(source='assets/web_images/barover.png', scaleGridLeft=10, scaleGridRight=11, scaleGridTop=10,scaleGridBottom=11);
+	selectedUpSkin:Embed(source='assets/images/glass_btn_over.png', scaleGridLeft=10, scaleGridRight=11, scaleGridTop=10,scaleGridBottom=11);
+	selectedOverSkin:Embed(source='assets/images/glass_btn_over.png', scaleGridLeft=10, scaleGridRight=11, scaleGridTop=10,scaleGridBottom=11);
+	disabledSkin:Embed(source='assets/images/glass_btn_disable.png', scaleGridLeft=10, scaleGridRight=11, scaleGridTop=10,scaleGridBottom=11);
+	color:#000000;
+	textRollOverColor:#510000;
+}
+
+
+*/
+
+.headBarTour
+{
+	background-image: Embed(source='assets/web_images/headBarTour.png');
+	vertical-gap: 0;
+	horizontal-gap: 0;
+}
+.headBarOrange
+{
+	background-image: Embed(source='assets/web_images/headBarOrange.png');
+	vertical-gap: 0;
+	horizontal-gap: 0;
+}
+
+DataGrid{
+	headerColors:#7ab8ef,#c6fdff;
+	selectionColor:#4385d9;
+	rollOverColor:#4385d9;
+	textRollOverColor:#ffffff;
+	textSelectedColor:#ffffff;
+	alternatingItemColors:#EEEEEE, #FFFFFF;
+	verticalGridLineColor:HaloSilver; 
+	verticalGridLines:true;
+	horizontalGridLineColor:HaloBlue; 
+	horizontalGridLines:true;
+	useRollOver:false;
+}
+
+Panel {
+   borderStyle: solid;
+   borderColor: #b7babc;
+   corner-radius:10;
+   borderAlpha: 1;
+   roundedBottomCorners: true;
+   headerHeight: 24;
+   highlightAlphas: 0, 0;
+   headerColors: #ff3f3f, #780000;
+  
+   titleStyleName: "mypanelTitle";
+   border-thickness-left:1;
+   border-thickness-right:1;
+   border-thickness-top:0;
+   border-thickness-bottom:-5;
+    
+   border-thickness:1;   
+}
+/*
+DateChooser
+{
+	borderStyle: solid;
+   	borderColor: #b7babc;
+   	corner-radius:10;
+   	borderAlpha: 1;
+   	roundedBottomCorners: true;
+   	headerHeight: 24;
+   	highlightAlphas: 0, 0;
+   	headerColors: #ff3f3f, #780000;
+}	
+*/
+.BluePanel {
+   borderStyle: solid;
+   borderColor: #b7babc;
+   corner-radius:10;
+   borderAlpha: 1;
+   roundedBottomCorners: true;
+   headerHeight: 24;
+   highlightAlphas: 0, 0;
+   headerColors: #5C84FF,#00175C;
+  
+   titleStyleName: "mypanelTitle";
+   border-thickness-left:1;
+   border-thickness-right:1;
+   border-thickness-top:0;
+   border-thickness-bottom:-5;
+    
+   border-thickness:1;   
+}
+		
+.mypanelTitle {
+   color: #ffffff;
+   fontSize: 12;
+}
+
+.VAccordionSp {
+   headerHeight: 80;
+   vertical-gap: 5;
+   background-alpha:0;
+   open-duration:500;
+   border-style:none;
+   padding-bottom:5;
+   header-style-name: gradientHeader;
+}
+
+.gradientHeader {
+    upSkin:ClassReference('flexlib.skins.EnhancedButtonSkin');
+    overSkin:ClassReference('flexlib.skins.EnhancedButtonSkin');
+    downSkin:ClassReference('flexlib.skins.EnhancedButtonSkin');
+    disabledSkin:ClassReference('flexlib.skins.EnhancedButtonSkin');
+    selectedUpSkin:ClassReference('flexlib.skins.EnhancedButtonSkin');
+    selectedOverSkin:ClassReference('flexlib.skins.EnhancedButtonSkin');
+    selectedDownSkin:ClassReference('flexlib.skins.EnhancedButtonSkin');
+    selectedDisabledSkin:ClassReference('flexlib.skins.EnhancedButtonSkin');
+    font-family:Arial;
+    cornerRadii: 0, 0, 10, 10;
+    borderColors: #FFFFFF, #FFFFFF;
+    overBorderColors: #FFFFFF, #FFFFFF;
+    selectedBorderColors: #FFFFFF, #FFFFFF;
+    borderThickness: 2;
+    borderAlpha: 1;
+    fillColors: #FFFFFF, #FFFFFF;
+    fillAlphas: 1, 1;
+    fillColorRatios: 0, 255;
+    overFillColors: #FFFFFF, #BAC2CF;
+    overFillAlphas: 1, 1;
+    overFillColorRatios: 0, 169;
+    selectedFillColors: #FFFFFF, #BAC2CF;
+    selectedFillAlphas: 1,1;
+    selectedFillColorRatios: 0, 169;
+}
+TextInput
+{
+	borderStyle:solid;
+	borderThickness: 1;
+	borderColor: #888888;
+	cornerRadius: 5;
+	paddingLeft:2;
+	paddingRight:2;
+	color: #000000;
+	fontSize: 12;
+	fontFamily: "Lucida Grande";
+}
+.SpBox
+{
+	borderStyle:solid;
+	borderThickness: 1;
+	borderColor: #AAAAAA;
+	cornerRadius: 5;
+	paddingLeft:2;
+	paddingRight:2;
+	backgroundColor: HALOBLUE;
+	backgroundAlpha: 0.2;
+	verticalAlign : middle;
+}
+
+.HALOBox
+{
+	borderStyle:solid;
+	borderThickness: 1;
+	borderColor: #000000;
+	cornerRadius: 5;
+	paddingLeft:2;
+	paddingRight:2;
+	backgroundColor: #006EB1;
+	backgroundAlpha: 1;
+	verticalAlign : middle;
+}
+.RegButton
+{
+	upSkin:Embed(source='assets/images/glass_btn_up.png', scaleGridLeft=10, scaleGridRight=11, scaleGridTop=10,scaleGridBottom=11);
+	downSkin:Embed(source='assets/images/glass_btn_over.png', scaleGridLeft=10, scaleGridRight=11, scaleGridTop=10,scaleGridBottom=11);
+	overSkin:Embed(source='assets/images/glass_btn_over.png', scaleGridLeft=10, scaleGridRight=11, scaleGridTop=10,scaleGridBottom=11);
+	selectedUpSkin:Embed(source='assets/images/glass_btn_over.png', scaleGridLeft=10, scaleGridRight=11, scaleGridTop=10,scaleGridBottom=11);
+	selectedOverSkin:Embed(source='assets/images/glass_btn_over.png', scaleGridLeft=10, scaleGridRight=11, scaleGridTop=10,scaleGridBottom=11);
+	disabledSkin:Embed(source='assets/images/glass_btn_disable.png', scaleGridLeft=10, scaleGridRight=11, scaleGridTop=10,scaleGridBottom=11);
+	color:#000000;
+	textRollOverColor:#000000;
+}
+/*
+TabNavigator, TabBar
+{
+	tabStyleName: tabStyleName;
+	firstTabStyleName: firstTab;
+	lastTabStyleName: lastTab;
+	fontSize: 12;	
+}
+*/
+.tabStyleName
+{
+	upSkin:Embed(source='assets/images/tab_middle.png', scaleGridLeft=9, scaleGridRight=37, scaleGridTop=13,scaleGridBottom=14);
+	downSkin: Embed(source='assets/images/tab_middle_over.png', 
+		scaleGridLeft=9, scaleGridRight=37, scaleGridTop=13,scaleGridBottom=14);
+	overSkin: Embed(source='assets/images/tab_middle_over.png', 
+		scaleGridLeft=9, scaleGridRight=37, scaleGridTop=13,scaleGridBottom=14);
+	selectedUpSkin: Embed(source='assets/images/tab_middle_selected.png', 
+		scaleGridLeft=9, scaleGridRight=37, scaleGridTop=13,scaleGridBottom=14);
+	selectedOverSkin: Embed(source='assets/images/tab_middle_selected.png', 
+		scaleGridLeft=9, scaleGridRight=37, scaleGridTop=13,scaleGridBottom=14);
+	paddingBottom: 3;
+	paddingTop: 5;
+	paddingLeft: 9;
+	paddingRight: 9;
+}
+
+.firstTab {
+	upSkin:Embed(source='assets/images/tab_first.png', scaleGridLeft=9, scaleGridRight=37, scaleGridTop=13,scaleGridBottom=14);
+	downSkin:Embed(source='assets/images/tab_first_over.png', 
+			scaleGridLeft=9, scaleGridRight=37, scaleGridTop=13,scaleGridBottom=14);
+	overSkin:Embed(source='assets/images/tab_first_over.png', 
+			scaleGridLeft=9, scaleGridRight=37, scaleGridTop=13,scaleGridBottom=14);
+	selectedUpSkin:Embed(source='assets/images/tab_first_selected.png',
+			scaleGridLeft=9, scaleGridRight=37, scaleGridTop=13,scaleGridBottom=14);
+	selectedOverSkin:Embed(source='assets/images/tab_first_selected.png',
+			scaleGridLeft=9, scaleGridRight=37, scaleGridTop=13,scaleGridBottom=14);
+	paddingBottom: 3;
+	paddingTop: 5;
+	paddingLeft: 9;
+	paddingRight: 9;
+}
+
+.lastTab {
+	upSkin:Embed(source='assets/images/tab_last.png', scaleGridLeft=9, scaleGridRight=37, scaleGridTop=13,scaleGridBottom=14);
+	downSkin:Embed(source='assets/images/tab_last_over.png',
+			scaleGridLeft=9, scaleGridRight=37, scaleGridTop=13,scaleGridBottom=14);
+	overSkin:Embed(source='assets/images/tab_last_over.png',
+			scaleGridLeft=9, scaleGridRight=37, scaleGridTop=13,scaleGridBottom=14);
+	selectedUpSkin:Embed(source='assets/images/tab_last_selected.png', 
+			scaleGridLeft=9, scaleGridRight=37, scaleGridTop=13,scaleGridBottom=14);
+	selectedOverSkin:Embed(source='assets/images/tab_last_selected.png', 
+			scaleGridLeft=9, scaleGridRight=37, scaleGridTop=13,scaleGridBottom=14);
+	paddingBottom: 3;
+	paddingTop: 5;
+	paddingLeft: 9;
+	paddingRight: 9;
+}
+
+
+
+
+/*
+.TabButton
+{
+	upSkin:Embed(source='assets/web_images/btdttlm_0.gif', scaleGridLeft=10, scaleGridRight=11, scaleGridTop=10,scaleGridBottom=11);
+	downSkin:Embed(source='assets/web_images/btdttlm_0.gif', scaleGridLeft=10, scaleGridRight=11, scaleGridTop=10,scaleGridBottom=11);
+	overSkin:Embed(source='assets/web_images/btdttlm_1.gif', scaleGridLeft=10, scaleGridRight=11, scaleGridTop=10,scaleGridBottom=11);
+	selectedUpSkin:Embed(source='assets/web_images/btdttlm_0.gif', scaleGridLeft=10, scaleGridRight=11, scaleGridTop=10,scaleGridBottom=11);
+	selectedOverSkin:Embed(source='assets/web_images/btdttlm_1.gif', scaleGridLeft=10, scaleGridRight=11, scaleGridTop=10,scaleGridBottom=11);
+	disabledSkin:Embed(source='assets/web_images/btdttlm_0.gif', scaleGridLeft=10, scaleGridRight=11, scaleGridTop=10,scaleGridBottom=11);
+	color:#FFFFFF;
+	textRollOverColor:#FFFFFF;
+}
+*/
+.RedButton
+{
+	upSkin:Embed(source='assets/web_images/btn_red.gif', scaleGridLeft=10, scaleGridRight=11, scaleGridTop=10,scaleGridBottom=11);
+	downSkin:Embed(source='assets/web_images/btn_red.gif', scaleGridLeft=10, scaleGridRight=11, scaleGridTop=10,scaleGridBottom=11);
+	overSkin:Embed(source='assets/web_images/btn_red2.gif', scaleGridLeft=10, scaleGridRight=11, scaleGridTop=10,scaleGridBottom=11);
+	selectedUpSkin:Embed(source='assets/web_images/btn_red.gif', scaleGridLeft=10, scaleGridRight=11, scaleGridTop=10,scaleGridBottom=11);
+	selectedOverSkin:Embed(source='assets/web_images/btn_red2.gif', scaleGridLeft=10, scaleGridRight=11, scaleGridTop=10,scaleGridBottom=11);
+	disabledSkin:Embed(source='assets/web_images/btn_red.gif', scaleGridLeft=10, scaleGridRight=11, scaleGridTop=10,scaleGridBottom=11);
+	color:#FFFFFF;
+	textRollOverColor:#FFFFFF;
+}
+.CyanButton
+{
+	upSkin:Embed(source='assets/web_images/cyan_up.gif', scaleGridLeft=10, scaleGridRight=11, scaleGridTop=10,scaleGridBottom=11);
+	downSkin:Embed(source='assets/web_images/cyan_over.gif', scaleGridLeft=10, scaleGridRight=11, scaleGridTop=10,scaleGridBottom=11);
+	overSkin:Embed(source='assets/web_images/cyan_over.gif', scaleGridLeft=10, scaleGridRight=11, scaleGridTop=10,scaleGridBottom=11);
+	selectedUpSkin:Embed(source='assets/web_images/cyan_up.gif', scaleGridLeft=10, scaleGridRight=11, scaleGridTop=10,scaleGridBottom=11);
+	selectedOverSkin:Embed(source='assets/web_images/cyan_over.gif', scaleGridLeft=10, scaleGridRight=11, scaleGridTop=10,scaleGridBottom=11);
+	disabledSkin:Embed(source='assets/web_images/cyan_over.gif', scaleGridLeft=10, scaleGridRight=11, scaleGridTop=10,scaleGridBottom=11);
+	color:#FFFFFF;
+	textRollOverColor:#FFFFFF;
+}
+.BlackButton
+{
+	upSkin:Embed(source='assets/web_images/btn_black.gif', scaleGridLeft=10, scaleGridRight=11, scaleGridTop=10,scaleGridBottom=11);
+	downSkin:Embed(source='assets/web_images/btn_black_blue.gif', scaleGridLeft=10, scaleGridRight=11, scaleGridTop=10,scaleGridBottom=11);
+	overSkin:Embed(source='assets/web_images/btn_black_blue.gif', scaleGridLeft=10, scaleGridRight=11, scaleGridTop=10,scaleGridBottom=11);
+	selectedUpSkin:Embed(source='assets/web_images/btn_black.gif', scaleGridLeft=10, scaleGridRight=11, scaleGridTop=10,scaleGridBottom=11);
+	selectedOverSkin:Embed(source='assets/web_images/btn_black_blue.gif', scaleGridLeft=10, scaleGridRight=11, scaleGridTop=10,scaleGridBottom=11);
+	disabledSkin:Embed(source='assets/web_images/btn_black.gif', scaleGridLeft=10, scaleGridRight=11, scaleGridTop=10,scaleGridBottom=11);
+	color:#FFFFFF;
+	textRollOverColor:#FFFFFF;
+}
+
+
+ComboBox{
+	upSkin: Embed(source='assets/images/comboBox_up.png',scaleGridLeft=10, scaleGridRight=160, scaleGridTop=10,scaleGridBottom=11);
+	overSkin:Embed(source='assets/images/comboBox_over.png',scaleGridLeft=10, scaleGridRight=160, scaleGridTop=10,scaleGridBottom=11);
+	downSkin:Embed(source='assets/images/comboBox_over.png',scaleGridLeft=10, scaleGridRight=160, scaleGridTop=10,scaleGridBottom=11);
+	selectedUpSkin:Embed(source='assets/images/comboBox_up.png',scaleGridLeft=10, scaleGridRight=160, scaleGridTop=10,scaleGridBottom=11);
+	selectedOverSkin:Embed(source='assets/images/comboBox_up.png',scaleGridLeft=10, scaleGridRight=160, scaleGridTop=10,scaleGridBottom=11);
+}
+ComboBox
+{
+	selectionColor:#4385d9;
+	rollOverColor:#4385d9;
+	textRollOverColor:#ffffff;
+	textSelectedColor:#ffffff;
+}
+
+.searchInput{
+	/*borderSkin:Embed(source='assets/images/search_input.png', scaleGridLeft=22, scaleGridRight=65, scaleGridTop=18,scaleGridBottom=19);*/
+	cornerRadius:10;
+	textIndent:12;
+	borderThikness:1;
+	borderStyle:solid;
+	borderThickness: 1;
+	borderColor: #CCCCCC;
+	paddingLeft:2;
+	paddingRight:2;
+	color: #000000;
+	fontSize: 12;
+	fontFamily: "Lucida Grande";
+}
+
+/****************************************************************************************************************
+                                             FONTS                                                              *
+*****************************************************************************************************************
+*/
+@font-face {
+   src:url("lucidaGrande.swf");
+   fontFamily: "Lucida Grande";
+}
+@font-face {
+   src:url("lucidaGrande.swf");
+   fontFamily: "Lucida Grande";
+   fontWeight:bold;
+}
+@font-face {
+   src:url("basenine.ttf");
+   fontFamily: "Base Nine";
+}
+@font-face {
+   src:url("baseninesc.ttf");
+   fontFamily: "Base Nine SC";
+}
